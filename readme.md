@@ -8,5 +8,5 @@ uvicorn main:app --reload
 curl localhost:8000/?v={videoid}
 >>{video:https://~~~~~,audio:https://~~~~~}
 ```
-videoidは"https://youtube.com/?v={ここの部分}"
+videoidは"https://youtube.com/watch?v={ここの部分}"
 
