@@ -1,6 +1,6 @@
 
 services:
-  - type: worker
+  - type: pserv
     name: yt-gv-api
     env: python
     region: Oregon
