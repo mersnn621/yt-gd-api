@@ -1,0 +1,9 @@
+
+services:
+  - type: worker
+    name: yt-gv-api
+    env: python
+    region: Oregon
+    plan: free
+    buildCommand: "pip3 install -r requirements.txt"
+    startCommand: "uvicorn --port $PORT --host 0.0.0.0 main:app"
