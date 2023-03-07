@@ -1,4 +1,6 @@
-﻿```
+﻿yt-dlpの--get-urlで取得したURLを返してるだけです。
+ 
+ ```
 pip3 install -r requirements.txt
 uvicorn main:app --reload 
 ```
